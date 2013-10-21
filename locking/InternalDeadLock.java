@@ -55,6 +55,7 @@ public class InternalDeadLock {
 	}
 
 	public static void main(String args[]) {
+		// Begin the example ....
 		System.out.println("An example of deadlocking");
 		InternalDeadLock idl = new InternalDeadLock();
 		idl.doTest();
